@@ -43,7 +43,7 @@ const Resume = () => {
           {/* <h5 className="my-3 text-2xl font-bold">Education</h5> */}
           <div className="">
             <h5 className="my-2 text-xl font-bold">
-              <Link href="https://drive.google.com/file/d/1LCS987cufOmQchfjeFpXKKAexIZeq71l/view?usp=sharing">
+              <Link href="https://www.credly.com/badges/0bee1ed5-4211-4500-8525-b360376f8a40/public_url">
                 <a>DATA SCIENCE</a>
               </Link>
             </h5>
@@ -60,7 +60,7 @@ const Resume = () => {
           <div className="">
             <h5 className="my-2 text-xl font-bold">
               {" "}
-              <Link href="https://drive.google.com/file/d/1HK7cItWV3J9qZgpQ5HH588_LXPzeUDXO/view?usp=sharing">
+              <Link href="https://www.credly.com/badges/f71d3603-2738-4823-a9f2-74d0def79406/public_url">
                 <a>GROW WITH GOOGLE</a>
               </Link>
             </h5>

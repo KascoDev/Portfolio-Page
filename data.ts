@@ -103,18 +103,32 @@ export const tools: Skill[] = [
     name: "Vs Code",
     level: "50",
   },
+  {
+    Icon: BsCircleFill,
+    name: "Vercel",
+    level: "50",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Contentful",
+    level: "50",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Heroku",
+    level: "50",
+  },
 ];
 
 export const projects: IProject[] = [
   {
-    name: "COVID Tracker",
-    description:
-      "This app shows a statistical view about corona virus over the world",
+    name: "Food website",
+    description: "This app contains a collection of delicious food",
     image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    deployed_url: "https://food-for-the-soul.vercel.app/",
+    github_url: "https://github.com/KascoDev/FOOD-FOR-THE-SOUL",
     category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+    key_techs: ["Next.js", "Contentful", "CMS"],
   },
   {
     name: "Algorithm Visualizer",
