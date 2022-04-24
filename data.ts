@@ -1,6 +1,10 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
+import { FaServer, FaChartBar } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { FcComboChart } from "react-icons/fc";
+import { SiPython } from "react-icons/si";
+import { BsBarChartFill } from "react-icons/bs";
+import { BiBookContent } from "react-icons/bi";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
 
@@ -8,10 +12,22 @@ import { BsCircleFill } from "react-icons/bs";
 
 export const services: Service[] = [
   {
+    Icon: SiPython,
+    title: "Data Analysis Using python",
+    about:
+      "They know how to prepare, process, analyze, and share data for thoughtful action using <b> Pandas</b>, <b>Numpy</b>, <b>Matplotlib & Seaborn</b> libraries",
+  },
+  {
+    Icon: FaChartBar,
+    title: "Data Visualization",
+    about:
+      "I can design various data visualizations, such as visual dashboards and charts which help bring data to life. I am competent in <b>Tableau</b>, <b>Chart.js</b>, <b>NivoChart.js</b>, <b>Matplotlib & Seaborn</b>. I use these various data visualization platform to help me create effective visualizations for actionable presentations",
+  },
+  {
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js & Next.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS, Tailwind CSS & Bootstrap 5</b> and <b>React.js & Next.js</b> ",
   },
   {
     Icon: FaServer,
@@ -20,27 +36,21 @@ export const services: Service[] = [
       "handle database, server, api using <b>Express </b> & other popular frameworks like <b>Node.js</b>",
   },
   {
+    Icon: BiBookContent,
+    title: "Content Management System (CMS)",
+    about:
+      "I am able to manage CMS's such as <b>Contentful</b>, <b>Strapi</b> and <b>Sanity</b>",
+  },
+  {
+    Icon: AiOutlineApi,
+    title: "SQL & NoSQL",
+    about:
+      "I can query SQL data which can then be used for further Analysis. I am also profitient in mongoDB",
+  },
+  {
     Icon: AiOutlineApi,
     title: "API Development",
-    about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
-  },
-  {
-    Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
-  },
-  {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
-    about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
-  },
-  {
-    Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+    about: "I can develop robust  REST API using <b>Node & Express</b> ",
   },
 ];
 
