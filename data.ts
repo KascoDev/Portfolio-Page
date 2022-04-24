@@ -134,7 +134,7 @@ export const projects: IProject[] = [
   {
     name: "Food website",
     description: "This app contains a collection of delicious food",
-    image_path: "/images/food.JPG",
+    image_path: "/images/Food.JPG",
     deployed_url: "https://food-for-the-soul.vercel.app/",
     github_url: "https://github.com/KascoDev/FOOD-FOR-THE-SOUL",
     category: ["react & next"],
@@ -166,12 +166,12 @@ export const projects: IProject[] = [
 
   {
     name: "Admin Dashboard",
-    image_path: "/images/admin-dashboard.JPG",
+    image_path: "/images/Admin-dashboard.JPG",
     deployed_url: "https://kascodev.github.io/ChartJs-Admin-Dashboard/",
     github_url: "https://github.com/KascoDev/ChartJs-Admin-Dashboard",
     category: ["data viz"],
     description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
+      "The admin dashboard was build using HTML, CSS, Javascript and Chart.js. The project enabel the admin to have a bird's eye view of his/her business",
     key_techs: ["Javascript", "Chart.js", "Data Analysis", "HTML/CSS"],
   },
 
@@ -182,7 +182,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/KascoDev/TindDog",
     category: [],
     description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
+      "This is like a tinder for dogs. It was created using HTML, CSS and Bootstarp 5",
     key_techs: ["HTML", "CSS", "Bootstrap 5"],
   },
 
@@ -195,7 +195,7 @@ export const projects: IProject[] = [
       "https://github.com/KascoDev/IBM-DataScience-SpaceX-Capstone-Project",
     category: ["python"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "This is IBM Data Science Course capstone project, In which I assume the role of a Data Scientist working for a new Space rocket company called SpaceY and would like to compete with SpaceX founded by Allon Musk. My job is to determine the cost of each launch and to predict if a launch programm will be successful or not. I have to do this by gathering information about Space X and creating an interactive dashboards for my team. I also determine if SpaceX will reuse it's booster rockets after each launch. I will use Data analysis and Data Science methodologies as well as training a machine learning model using publicly available information to predict if SpaceX will reuse the first stage rocket booster.",
     key_techs: [
       "Python",
       "SQL",
@@ -213,7 +213,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/KascoDev/Machine_Learning_Modeling",
     category: ["python"],
     description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+      "In this notebook I try to analyze classification algorithms in machine learning.  I load the dataset using python Pandas library package, and apply the necessary algorithms to find the optimal classification algorithm for the dataset I used. ",
     key_techs: ["Python", "Pandas", "ML"],
   },
 ];
