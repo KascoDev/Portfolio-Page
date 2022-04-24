@@ -60,7 +60,7 @@ const Resume = () => {
           <div className="">
             <h5 className="my-2 text-xl font-bold">
               {" "}
-              <Link href="https://www.credly.com/badges/f71d3603-2738-4823-a9f2-74d0def79406/public_url">
+              <Link href="https://www.credly.com/badges/63335423-00d7-468a-bf25-c6c5971a047a/public_url">
                 <a>GROW WITH GOOGLE</a>
               </Link>
             </h5>
