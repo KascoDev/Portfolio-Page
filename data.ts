@@ -134,7 +134,7 @@ export const projects: IProject[] = [
   {
     name: "Food website",
     description: "This app contains a collection of delicious food",
-    image_path: "/images/food.jpg",
+    image_path: "/images/food.JPG",
     deployed_url: "https://food-for-the-soul.vercel.app/",
     github_url: "https://github.com/KascoDev/FOOD-FOR-THE-SOUL",
     category: ["react & next"],
@@ -142,7 +142,7 @@ export const projects: IProject[] = [
   },
   {
     name: "Sales Rep. Performance Monitor",
-    image_path: "/images/Sales-Rep-Monitor.jpg",
+    image_path: "/images/Sales-Rep-Monitor.JPG",
     deployed_url:
       "https://public.tableau.com/app/profile/dimowo.okasime/viz/SalesRep_PerformanceMonitor/Dashboard1",
     github_url: "",
@@ -154,7 +154,7 @@ export const projects: IProject[] = [
 
   {
     name: "Sales Analysis",
-    image_path: "/images/Sales Analysis.jpg",
+    image_path: "/images/Sales Analysis.JPG",
     deployed_url:
       "https://public.tableau.com/app/profile/dimowo.okasime/viz/SalesCustomerAnalysis_16506516411430/Dashboard1",
     github_url: "",
@@ -166,7 +166,7 @@ export const projects: IProject[] = [
 
   {
     name: "Admin Dashboard",
-    image_path: "/images/admin-dashboard.jpg",
+    image_path: "/images/admin-dashboard.JPG",
     deployed_url: "https://kascodev.github.io/ChartJs-Admin-Dashboard/",
     github_url: "https://github.com/KascoDev/ChartJs-Admin-Dashboard",
     category: ["data viz"],
@@ -177,7 +177,7 @@ export const projects: IProject[] = [
 
   {
     name: "tinDog",
-    image_path: "/images/tinDog.jpg",
+    image_path: "/images/tinDog.JPG",
     deployed_url: "https://kascodev.github.io/TindDog/",
     github_url: "https://github.com/KascoDev/TindDog",
     category: [],
@@ -188,7 +188,7 @@ export const projects: IProject[] = [
 
   {
     name: "SpaceX Capstone Project",
-    image_path: "/images/SpaceX-Capstone-Project.jpg",
+    image_path: "/images/SpaceX-Capstone-Project.JPG",
     deployed_url:
       "https://docs.google.com/presentation/d/1tRVbKWMxo-oVC2TqTxdwvTw_njxoNk80/edit?usp=sharing&ouid=115711840025056245722&rtpof=true&sd=true",
     github_url:
@@ -208,7 +208,7 @@ export const projects: IProject[] = [
   },
   {
     name: "Machine-Learning-Project1 ",
-    image_path: "/images/machine-learning-project1.jpg",
+    image_path: "/images/machine-learning-project1.JPG",
     deployed_url: "https://not-utube.web.app/",
     github_url: "https://github.com/KascoDev/Machine_Learning_Modeling",
     category: ["python"],
