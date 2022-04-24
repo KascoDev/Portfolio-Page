@@ -209,7 +209,7 @@ export const projects: IProject[] = [
   {
     name: "Machine-Learning-Project1 ",
     image_path: "/images/machine-learning-project1.JPG",
-    deployed_url: "https://not-utube.web.app/",
+    deployed_url: "",
     github_url: "https://github.com/KascoDev/Machine_Learning_Modeling",
     category: ["python"],
     description:
