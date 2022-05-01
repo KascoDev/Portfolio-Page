@@ -1,6 +1,10 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer, FaChartBar } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import {
+  AiOutlineAntDesign,
+  AiOutlineApi,
+  AiOutlineConsoleSql,
+} from "react-icons/ai";
 import { FcComboChart } from "react-icons/fc";
 import { SiPython } from "react-icons/si";
 import { BsBarChartFill } from "react-icons/bs";
@@ -21,7 +25,7 @@ export const services: Service[] = [
     Icon: FaChartBar,
     title: "Data Visualization",
     about:
-      "I can design various data visualizations, such as visual dashboards and charts which help bring data to life. I am competent in <b>Tableau</b>, <b>Chart.js</b>, <b>NivoChart.js</b>, <b>Matplotlib & Seaborn</b>. I use these various data visualization platform to help me create effective visualizations for actionable presentations",
+      "I am competent in <b>Tableau</b>, <b>Power BI</b>, <b>Chart.js</b>, <b>NivoChart.js</b>, <b>Matplotlib & Seaborn</b>. I can design various data visualizations, such as visual dashboards and charts which help bring data to life",
   },
   {
     Icon: RiComputerLine,
@@ -42,7 +46,7 @@ export const services: Service[] = [
       "I am able to manage CMS's such as <b>Contentful</b>, <b>Strapi</b> and <b>Sanity</b>",
   },
   {
-    Icon: AiOutlineApi,
+    Icon: AiOutlineConsoleSql,
     title: "SQL & NoSQL",
     about:
       "I can query SQL data which can then be used for further Analysis. I am also profitient in mongoDB",
@@ -62,7 +66,7 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
+    name: "Javascript",
     level: "60",
   },
   {
@@ -143,12 +147,23 @@ export const tools: Skill[] = [
 export const projects: IProject[] = [
   {
     name: "Food website",
-    description: "This app contains a collection of delicious food",
+    description:
+      "This app contains a collection of delicious food. I use contentful as a backend tool for my content management ",
     image_path: "/images/Food.JPG",
     deployed_url: "https://food-for-the-soul.vercel.app/",
     github_url: "https://github.com/KascoDev/FOOD-FOR-THE-SOUL",
     category: ["react & next"],
     key_techs: ["Next.js", "Contentful", "CMS"],
+  },
+  {
+    name: "Fullstack Ecommerce Website",
+    description:
+      "This web app is a complete ecommerce site with sanity as backend for my content and stripe for payment and checkout",
+    image_path: "/images/ecommerce.JPG",
+    deployed_url: "https://fullstack-ecommerce-sanity-stripe.vercel.app/",
+    github_url: "https://github.com/KascoDev/fullstack-ecommerce-sanity-stripe",
+    category: ["react & next"],
+    key_techs: ["Next.js", "Sanity", "CMS"],
   },
   {
     name: "Sales Rep. Performance Monitor",
@@ -158,7 +173,7 @@ export const projects: IProject[] = [
     github_url: "",
     category: ["tableau", "data viz"],
     description:
-      "This DataViz. consist of a Dashboard and different types of charts including a bar chart, bubble chart, a scatter plot and more. This is a Descriptive Sales Rep. Performance Monitor Dashboard. Part 9 of this tutorial covers how to create a dashboard in Tableau; specifically, we look at how to add visuals (tiled and floating), how to add images & text/titles, and finally how to format & adjust the layout. ",
+      "This DataViz. consist of a Dashboard and different types of charts including a bar chart, bubble chart, a scatter plot and more. This is a Descriptive Sales Rep. Performance Monitor Dashboard",
     key_techs: ["Tableau", "Data Analysis", "Data Visualization"],
   },
 
