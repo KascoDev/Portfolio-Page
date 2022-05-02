@@ -15,20 +15,15 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1">
-        Hello, I am Okasime, a Data Analyst and Web developer with experience in
-        web app technologies. My education/training in software development,
-        data science/ analytics and agile management which informs my
-        collaborative approach in dealing with challenges in tech. I am fueled
-        by my passion for understanding the nuance of tech development's
-        benefits to societies. I am open-minded and I learn new things quickly.
-        I consider myself a forever student eager to build on my knowledge in
-        software development and technology in general by staying informed with
-        the latest innovation in software development through continued
-        learning, coursework and professional development. With my knowledge and
-        training, I am able to deploy my web development knowledge and
-        collaboration abilities to get tasks/projects done. I have also learnt
-        how to work in an agile environment using Scrum and Kanban frameworks
-        hence getting things done is second nature to me.
+        Hello, I am Okasime, a Data Analyst and Web developer. My
+        education/training is in web development, data science/ analytics and
+        Agile management. I am open-minded and I learn new things quickly. I am
+        fueled by my passion for understanding the nuance of tech development
+        and it's benefits to the society which has informed my collaborative
+        approach in dealing with challenges face daily in tech and getting
+        projects/tasks done. I learnt how to solve these challenges by using the
+        Agile management principles with emphasis on Scrum and Kanban
+        frameworks. Hence, getting things done is second nature to me.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

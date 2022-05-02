@@ -17,7 +17,7 @@ import { BsCircleFill } from "react-icons/bs";
 export const services: Service[] = [
   {
     Icon: SiPython,
-    title: "Data Analysis Using python",
+    title: "Data Analytics Using python and R",
     about:
       "They know how to prepare, process, analyze, and share data for thoughtful action using <b> Pandas</b>, <b>Numpy</b>, <b>Matplotlib & Seaborn</b> libraries",
   },
@@ -49,12 +49,18 @@ export const services: Service[] = [
     Icon: AiOutlineConsoleSql,
     title: "SQL & NoSQL",
     about:
-      "I can query SQL data which can then be used for further Analysis. I am also profitient in mongoDB",
+      "I can query <b>SQL</b> data which can then be used for further Analysis. I am also profitient in <b>mongoDB</b>",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about: "I can develop robust  REST API using <b>Node & Express</b> ",
+  },
+  {
+    Icon: AiOutlineApi,
+    title: "Agile Project Management",
+    about:
+      "I can create effective <b>project documentation & artifacts</b> throughout the various phase of a project using the principles of <b>Agile management & Scrum</b>",
   },
 ];
 

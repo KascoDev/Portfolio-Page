@@ -59,11 +59,11 @@ const Resume = () => {
           {/* <h5 className="my-3 text-2xl font-bold">Education</h5> */}
           <div className="">
             <h5 className="my-2 text-xl font-bold">
-              <Link href="https://www.credly.com/badges/0bee1ed5-4211-4500-8525-b360376f8a40/public_url">
+              <Link href="https://www.credly.com/badges/66d3c986-5657-4c45-97b8-36bdbfb7d6a4/public_url">
                 <a>DATA ANALYTICS</a>
               </Link>
             </h5>
-            <p className="font-semibold">GROW WITH GOOGLE (2022)</p>
+            <p className="font-semibold">GROW WITH GOOGLE (2021)</p>
             <p className="my-3">
               I developed and honed my analytical skills in Data Science, Data
               Visualization and Machine Learning using python
