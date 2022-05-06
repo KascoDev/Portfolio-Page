@@ -34,7 +34,7 @@ const Resume = () => {
             <p className="my-3">
               In this specialization, I learnt Front-end and Back-end
               frameworks: HTML, CSS, Javascript, Bootstrap 4, React js, MongoDB,
-              Node and Express js.
+              Node and Express js
             </p>
           </div>
         </div>
@@ -49,7 +49,7 @@ const Resume = () => {
             </h5>
             <p className="font-semibold">IBM (2022)</p>
             <p className="my-3">
-              I developed and honed my analytical skills in Data Science, Data
+              I developed and honed my analytical skills in Data analytics, Data Science, Data
               Visualization and Machine Learning using python
             </p>
           </div>
@@ -65,8 +65,7 @@ const Resume = () => {
             </h5>
             <p className="font-semibold">GROW WITH GOOGLE (2021)</p>
             <p className="my-3">
-              I developed and honed my analytical skills in Data Science, Data
-              Visualization and Machine Learning using python
+            I learned key hands on analytical skills (data cleaning, organising data, analysis, & visualization) and using analytical tools (spreadsheets, SQL, R programming, Tableau) to solve real life problems
             </p>
           </div>
         </div>
@@ -86,7 +85,7 @@ const Resume = () => {
             <p className="my-3">
               I learnt how to create effective project documentation and
               artifacts, the principles of Agile project management, with a
-              focus on implementing Scrum methodology.
+              focus on implementing Scrum methodology
             </p>
           </div>
         </div>
