@@ -11,10 +11,8 @@ npm run dev
 ```
 
 ## The project is deployed on Vercel : 
-[Deployed Version](https://sumit.dey-sumit.vercel.app/)
+[Deployed Version](https://portfolio-page-three.vercel.app/)
 
-## Project tutorial on YouTube : 
-  [Full Playlist of Dev Portfolio Project](https://www.youtube.com/watch?v=Nhb67Eb98tU&list=PLQKg8mIgoxKpvIWyxMM-Nn6s_iww0KX53)
 
 
 ## Contributing
@@ -22,9 +20,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 --- 
 ## Contact
-
-<!-- Sumit Dey- [code.sumax@gmail.com](mailto:code.sumax@gmail.com) -->
-
 
 
 

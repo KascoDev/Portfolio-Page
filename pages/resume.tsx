@@ -14,7 +14,7 @@ const Resume = () => {
             <h5 className="my-2 text-xl font-bold">MASTER OF SCIENCE</h5>
             <p className="font-semibold">UNIVERSITY OF GOETTINGEN (On-going)</p>
             <p className="my-3">
-              I am in the final stage of my Master degree program
+              Currently in the final stage of my Master degree program
               (Agri-business)
             </p>
           </div>
@@ -32,9 +32,8 @@ const Resume = () => {
               THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (2022)
             </p>
             <p className="my-3">
-              In this specialization, I learnt Front-end and Back-end
-              frameworks: HTML, CSS, Javascript, Bootstrap 4, React js, MongoDB,
-              Node and Express js
+              Front-end and Back-end frameworks: HTML, CSS, Javascript,
+              Bootstrap 4, React js, MongoDB, Node and Express js
             </p>
           </div>
         </div>
@@ -49,8 +48,8 @@ const Resume = () => {
             </h5>
             <p className="font-semibold">IBM (2022)</p>
             <p className="my-3">
-              I developed and honed my analytical skills in Data analytics, Data Science, Data
-              Visualization and Machine Learning using python
+              Developed and honed my analytical skills in Data analytics, Data
+              Science, Data Visualization and Machine Learning using python
             </p>
           </div>
         </div>
@@ -65,7 +64,10 @@ const Resume = () => {
             </h5>
             <p className="font-semibold">GROW WITH GOOGLE (2021)</p>
             <p className="my-3">
-            I learned key hands on analytical skills (data cleaning, organising data, analysis, & visualization) and using analytical tools (spreadsheets, SQL, R programming, Tableau) to solve real life problems
+              Hands on analytical skills (data cleaning, organising data,
+              analysis, & visualization) and using analytical tools
+              (spreadsheets, SQL, R programming, Tableau) to solve real life
+              problems
             </p>
           </div>
         </div>
@@ -83,9 +85,9 @@ const Resume = () => {
               GOOGLE PROJECT MANAGEMENT (WATERFALL AND AGILE) (2021)
             </p>
             <p className="my-3">
-              I learnt how to create effective project documentation and
-              artifacts, the principles of Agile project management, with a
-              focus on implementing Scrum methodology
+              Effective project documentation & artifacts, Planning & Executing,
+              Principles of Agile project management, with a focus on Scrum and
+              Kanban methodology
             </p>
           </div>
         </div>
