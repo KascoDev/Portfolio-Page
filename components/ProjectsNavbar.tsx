@@ -26,6 +26,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="python" {...props} />
       <NavItem value="react & next" {...props} />
       <NavItem value="tableau" {...props} />
+      <NavItem value="power BI" {...props} />
       <NavItem value="data viz" {...props} />
       <NavItem value="node & express" {...props} />
       <NavItem value="mongo" {...props} />
