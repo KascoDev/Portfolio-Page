@@ -211,6 +211,17 @@ export const projects: IProject[] = [
   },
 
   {
+    name: "HR Dashboard",
+    image_path: "/images/Power BI HR Dashboard.JPG",
+    deployed_url:
+      "https://app.powerbi.com/links/kqqv_R4Q8-?ctid=e224727e-cd06-4c3e-9eaa-20f20db500ad&pbi_source=linkShare&bookmarkGuid=dc107669-fc8c-42bb-81c5-0a257b394214",
+    github_url: "",
+    category: ["power BI", "data viz"],
+    description: "The dashboard is an analysis of the workfore of a company",
+    key_techs: ["Power BI", "Data Analysis", "Data Visualization"],
+  },
+
+  {
     name: "Admin Dashboard",
     image_path: "/images/Admin-dashboard.JPG",
     deployed_url: "https://kascodev.github.io/ChartJs-Admin-Dashboard/",

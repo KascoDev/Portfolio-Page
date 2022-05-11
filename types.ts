@@ -25,6 +25,7 @@ export interface IProject {
 export type Category =
   | "python"
   | "react & next"
+  | "power BI"
   | "tableau"
   | "data viz"
   | "node & express"
