@@ -14,7 +14,7 @@ const Resume = () => {
             <h5 className="my-2 text-xl font-bold">MASTER OF SCIENCE</h5>
             <p className="font-semibold">UNIVERSITY OF GOETTINGEN (On-going)</p>
             <p className="my-3">
-              Currently in the final stage of my Master degree program
+              I am in the final stage of my Master degree program
               (Agri-business)
             </p>
           </div>
@@ -48,7 +48,7 @@ const Resume = () => {
             </h5>
             <p className="font-semibold">IBM (2022)</p>
             <p className="my-3">
-              Developed and honed my analytical skills in Data analytics, Data
+              I developed and honed my analytical skills in Data Analytics, Data
               Science, Data Visualization and Machine Learning using python
             </p>
           </div>

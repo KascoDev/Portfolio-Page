@@ -19,9 +19,9 @@ const About: NextPage = () => {
         education/training is in web development, data science/ analytics and
         Agile management. I am open-minded and I learn new things quickly. I am
         fueled by my passion for understanding the nuance of tech development
-        and it's benefits to the society which has informed my collaborative
-        approach in dealing with challenges face daily in tech and getting
-        projects/tasks done. I learnt how to solve these challenges by using the
+        and its benefits to society which has informed my collaborative approach
+        to dealing with challenges faced daily in tech and getting
+        projects/tasks done. I learned how to solve these challenges by using
         Agile management principles with emphasis on Scrum and Kanban
         frameworks. Hence, getting things done is second nature to me.
       </h6>
@@ -30,7 +30,7 @@ const About: NextPage = () => {
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <h4 className="my-3 text-xl font-semibold tracking-wide">
-          My core competencies/Stack
+          My core competencies/Stack are
         </h4>
 
         <div className="grid gap-6 my-3 md:grid-cols-2">

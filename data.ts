@@ -19,13 +19,19 @@ export const services: Service[] = [
     Icon: SiPython,
     title: "Data Analytics Using python and R",
     about:
-      "Preparing, processing, analyzing, and sharing data for thoughtful action using <b>R and RStudio</b>, <b>Tidyvarse & ggplot2</b>, <b>R-Markdown</b>, <b>Pandas</b>, <b>Numpy</b>, <b>Matplotlib & Seaborn</b>, <b>Streamlit</b>, libraries",
+      "Preparing, processing, analyzing, and sharing data for thoughtful action using <b>R and RStudio</b>, <b>Tidyverse & ggplot2</b>, <b>R-Markdown</b>, <b>Pandas</b>, <b>Numpy</b>, <b>Matplotlib & Seaborn</b>, <b>Streamlit</b> libraries",
   },
   {
     Icon: FaChartBar,
     title: "Data Visualization",
     about:
       "Competent in <b>Tableau</b>, <b>Power BI</b>, <b>Chart.js</b>, <b>NivoChart.js</b>, <b>ggplot2</b>, <b>Matplotlib & Seaborn</b>. I can design various data visualizations, such as visual dashboards and charts which help bring data to life",
+  },
+  {
+    Icon: AiOutlineConsoleSql,
+    title: "SQL & NoSQL",
+    about:
+      "Querying <b>SQL (BigQuery & MySQL)</b> data which can then be used for further Analysis, profitient in <b>mongoDB</b>",
   },
   {
     Icon: RiComputerLine,
@@ -46,12 +52,6 @@ export const services: Service[] = [
       "Managing CMS's such as <b>Contentful</b>, <b>Strapi</b> and <b>Sanity</b>",
   },
   {
-    Icon: AiOutlineConsoleSql,
-    title: "SQL & NoSQL",
-    about:
-      "Querying <b>SQL</b> data which can then be used for further Analysis, profitient in <b>mongoDB</b>",
-  },
-  {
     Icon: AiOutlineApi,
     title: "API Development",
     about: "Developing robust  REST API using <b>Node & Express</b> ",
@@ -67,7 +67,17 @@ export const services: Service[] = [
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Python, R and RStudio",
+    name: "Python, R & RStudio",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Tableau & Power BI",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Excel, Power Query & DAX",
     level: "60",
   },
   {
@@ -77,22 +87,22 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "HTML and CSS",
+    name: "HTML & CSS",
     level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap and Tailwind CSS",
+    name: "Bootstrap & Tailwind CSS",
     level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "React and Next Js",
+    name: "React & Next Js",
     level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "SQL and NoSQL",
+    name: "SQL & NoSQL",
     level: "60",
   },
   {
@@ -102,12 +112,7 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Chart js",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Tableau and Power BI",
+    name: "Chart js, NivoChart.js",
     level: "60",
   },
 ];
@@ -167,25 +172,37 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
   {
-    name: "Food website",
+    name: "SpaceX Project",
+    image_path: "/images/SpaceX-Capstone-Project.JPG",
+    deployed_url:
+      "https://docs.google.com/presentation/d/1tRVbKWMxo-oVC2TqTxdwvTw_njxoNk80/edit?usp=sharing&ouid=115711840025056245722&rtpof=true&sd=true",
+    github_url:
+      "https://github.com/KascoDev/IBM-DataScience-SpaceX-Capstone-Project",
+    category: ["python"],
     description:
-      "This app contains a collection of delicious food. I use contentful as a backend tool for my content management ",
-    image_path: "/images/Food.JPG",
-    deployed_url: "https://food-for-the-soul.vercel.app/",
-    github_url: "https://github.com/KascoDev/FOOD-FOR-THE-SOUL",
-    category: ["react & next"],
-    key_techs: ["Next.js", "Contentful", "CMS"],
+      "This is IBM Data Science Course capstone project, In which I assume the role of a Data Scientist working for a new Space rocket company called SpaceY and would like to compete with SpaceX founded by Allon Musk. My job is to determine the cost of each launch and to predict if a launch programm will be successful or not. I have to do this by gathering information about Space X and creating an interactive dashboards for my team. I also determine if SpaceX will reuse it's booster rockets after each launch. I use Data analysis and Data Science methodologies as well as training a machine learning model using publicly available information to predict if SpaceX will reuse the first stage rocket booster.",
+    key_techs: [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Matplotlib",
+      "Folium",
+      "ML",
+      "Data Analysis",
+    ],
   },
+
   {
-    name: "Fullstack Ecommerce Website",
+    name: "Loan Eligibility predictor (Machine-Learning-Analysis)",
+    image_path: "/images/machine-learning-project1.JPG",
+    deployed_url: "",
+    github_url: "https://github.com/KascoDev/Machine_Learning_Modeling",
+    category: ["python"],
     description:
-      "This web app is a complete ecommerce web app with sanity as backend for content and stripe for payment and checkout",
-    image_path: "/images/ecommerce.JPG",
-    deployed_url: "https://fullstack-ecommerce-sanity-stripe.vercel.app/",
-    github_url: "https://github.com/KascoDev/fullstack-ecommerce-sanity-stripe",
-    category: ["react & next"],
-    key_techs: ["Next.js", "Sanity", "CMS"],
+      "I analyzed customer data sets using machine learning to predict the eligibility status for a loan.  I analyse the dataset using python Pandas, numpy, scikit learn libraries and apply the necessary algorithms to find the optimal classification algorithm for the best predictor. ",
+    key_techs: ["Python", "Pandas", "ML"],
   },
+
   {
     name: "Sales Rep. Performance Monitor",
     image_path: "/images/Sales-Rep-Monitor.JPG",
@@ -217,7 +234,7 @@ export const projects: IProject[] = [
       "https://app.powerbi.com/links/kqqv_R4Q8-?ctid=e224727e-cd06-4c3e-9eaa-20f20db500ad&pbi_source=linkShare&bookmarkGuid=dc107669-fc8c-42bb-81c5-0a257b394214",
     github_url: "",
     category: ["power BI", "data viz"],
-    description: "The dashboard is an analysis of the workfore of a company",
+    description: "The dashboard is an analysis of the workforce of a company",
     key_techs: ["Power BI", "Data Analysis", "Data Visualization"],
   },
 
@@ -233,6 +250,27 @@ export const projects: IProject[] = [
   },
 
   {
+    name: "Food website",
+    description:
+      "This app contains a collection of delicious food. I use contentful as a backend tool for my content management ",
+    image_path: "/images/Food.JPG",
+    deployed_url: "https://food-for-the-soul.vercel.app/",
+    github_url: "https://github.com/KascoDev/FOOD-FOR-THE-SOUL",
+    category: ["react & next"],
+    key_techs: ["Next.js", "Contentful", "CMS"],
+  },
+  {
+    name: "Fullstack Ecommerce Website",
+    description:
+      "This web app is a complete ecommerce web app with sanity as backend for content and stripe for payment and checkout",
+    image_path: "/images/ecommerce.JPG",
+    deployed_url: "https://fullstack-ecommerce-sanity-stripe.vercel.app/",
+    github_url: "https://github.com/KascoDev/fullstack-ecommerce-sanity-stripe",
+    category: ["react & next"],
+    key_techs: ["Next.js", "Sanity", "CMS"],
+  },
+
+  {
     name: "tinDog",
     image_path: "/images/tinDog.JPG",
     deployed_url: "https://kascodev.github.io/TindDog/",
@@ -241,36 +279,5 @@ export const projects: IProject[] = [
     description:
       "This is like tinder web app for dogs. It was created using HTML, CSS and Bootstarp 5",
     key_techs: ["HTML", "CSS", "Bootstrap 5"],
-  },
-
-  {
-    name: "SpaceX Project",
-    image_path: "/images/SpaceX-Capstone-Project.JPG",
-    deployed_url:
-      "https://docs.google.com/presentation/d/1tRVbKWMxo-oVC2TqTxdwvTw_njxoNk80/edit?usp=sharing&ouid=115711840025056245722&rtpof=true&sd=true",
-    github_url:
-      "https://github.com/KascoDev/IBM-DataScience-SpaceX-Capstone-Project",
-    category: ["python"],
-    description:
-      "This is IBM Data Science Course capstone project, In which I assume the role of a Data Scientist working for a new Space rocket company called SpaceY and would like to compete with SpaceX founded by Allon Musk. My job is to determine the cost of each launch and to predict if a launch programm will be successful or not. I have to do this by gathering information about Space X and creating an interactive dashboards for my team. I also determine if SpaceX will reuse it's booster rockets after each launch. I use Data analysis and Data Science methodologies as well as training a machine learning model using publicly available information to predict if SpaceX will reuse the first stage rocket booster.",
-    key_techs: [
-      "Python",
-      "SQL",
-      "Pandas",
-      "Matplotlib",
-      "Folium",
-      "ML",
-      "Data Analysis",
-    ],
-  },
-  {
-    name: "Machine-Learning-Project ",
-    image_path: "/images/machine-learning-project1.JPG",
-    deployed_url: "",
-    github_url: "https://github.com/KascoDev/Machine_Learning_Modeling",
-    category: ["python"],
-    description:
-      "In this notebook I try to analyze classification algorithms in machine learning.  I load the dataset using python Pandas library package, and apply the necessary algorithms to find the optimal classification algorithm for the dataset I used. ",
-    key_techs: ["Python", "Pandas", "ML"],
   },
 ];
