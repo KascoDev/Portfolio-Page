@@ -193,10 +193,11 @@ export const projects: IProject[] = [
   },
 
   {
-    name: "Loan Eligibility predictor (Machine-Learning-Analysis)",
+    name: "Loan Eligibility predictor (Machine-Learning-Modeling)",
     image_path: "/images/machine-learning-project1.JPG",
     deployed_url: "",
-    github_url: "https://github.com/KascoDev/Machine_Learning_Modeling",
+    github_url:
+      "https://github.com/KascoDev/Loan-Eligibility-predictor-Machine-Learning-Modeling-",
     category: ["python"],
     description:
       "I analyzed customer data sets using machine learning to predict the eligibility status for a loan.  I analyse the dataset using python Pandas, numpy, scikit learn libraries and apply the necessary algorithms to find the optimal classification algorithm for the best predictor. ",
