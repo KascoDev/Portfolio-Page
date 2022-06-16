@@ -265,10 +265,23 @@ export const projects: IProject[] = [
     description:
       "This web app is a complete ecommerce web app with sanity as backend for content and stripe for payment and checkout",
     image_path: "/images/ecommerce.JPG",
-    deployed_url: "https://fullstack-ecommerce-sanity-stripe.vercel.app/",
-    github_url: "https://github.com/KascoDev/fullstack-ecommerce-sanity-stripe",
+    deployed_url:
+      "https://ecommerce-with-sanity-and-stripe-check-out.vercel.app/",
+    github_url:
+      "https://github.com/KascoDev/ecommerce_with_sanity_and_stripe_check-out",
     category: ["react & next"],
     key_techs: ["Next.js", "Sanity", "CMS"],
+  },
+
+  {
+    name: "Fitness App",
+    description:
+      "This web app is a complete fitness web app with sanity as backend for content",
+    image_path: "/images/fitness.JPG",
+    deployed_url: "https://fitness-app-snowy.vercel.app/",
+    github_url: "https://github.com/KascoDev/fitness_app",
+    category: ["react & next"],
+    key_techs: ["React.js", "Sanity", "CMS"],
   },
 
   {
