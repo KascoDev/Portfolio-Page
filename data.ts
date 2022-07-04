@@ -19,7 +19,7 @@ export const services: Service[] = [
     Icon: SiPython,
     title: "Data Analytics Using python and R",
     about:
-      "Preparing, processing, analyzing, and sharing data for thoughtful action using <b>R and RStudio</b>, <b>Tidyverse & ggplot2</b>, <b>R-Markdown</b>, <b>Pandas</b>, <b>Numpy</b>, <b>Matplotlib & Seaborn</b>, <b>Streamlit</b> libraries",
+      "Preparing, processing, analyzing, and sharing data for thoughtful action using <b>Python (Pandas, Numpy, Matplotlib & Seaborn, Scikit-learn, TensorFlow/Keras & Streamlit)</b> and <b>R/RStudio</b> <b>(Tidyverse, ggplot2 & R-Markdown)</b> libraries",
   },
   {
     Icon: FaChartBar,
