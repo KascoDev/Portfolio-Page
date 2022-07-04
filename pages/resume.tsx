@@ -43,6 +43,24 @@ const Resume = () => {
           <div className="">
             <h5 className="my-2 text-xl font-bold">
               <Link href="https://www.credly.com/badges/0bee1ed5-4211-4500-8525-b360376f8a40/public_url">
+                <a>Machine Learning Specialization</a>
+              </Link>
+            </h5>
+            <p className="font-semibold">DeepLearning.AI and Stanford (2022)</p>
+            <p className="my-3">
+              I advanced my skills in ML models such as Linear & Logistics
+              Regression, Artificial Neural Network, Decision Trees, Recommender
+              system, Anomaly Detection using Numpy, scikit-learn, TensorFlow
+              and Keras.
+            </p>
+          </div>
+        </div>
+
+        <div className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1">
+          {/* <h5 className="my-3 text-2xl font-bold">Education</h5> */}
+          <div className="">
+            <h5 className="my-2 text-xl font-bold">
+              <Link href="https://www.credly.com/badges/0bee1ed5-4211-4500-8525-b360376f8a40/public_url">
                 <a>DATA SCIENCE</a>
               </Link>
             </h5>
