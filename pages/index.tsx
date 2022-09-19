@@ -16,8 +16,8 @@ const About: NextPage = () => {
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1">
         Hello, I am Okasime, a Data Analyst and Web developer. My
-        education/training is in web development, data science/ analytics and
-        Agile management. I am open-minded and I learn new things quickly. I am
+        education/training is in Data Science/ Analytics, Web Development and
+        Agile Management. I am open-minded and I learn new things quickly. I am
         fueled by my passion for understanding the nuance of tech development
         and its benefits to society which has informed my collaborative approach
         to dealing with challenges faced daily in tech and getting
