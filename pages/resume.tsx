@@ -42,7 +42,7 @@ const Resume = () => {
           {/* <h5 className="my-3 text-2xl font-bold">Education</h5> */}
           <div className="">
             <h5 className="my-2 text-xl font-bold">
-              <Link href="https://drive.google.com/file/d/10fr53g-HL8yA5-IjaGgUVn635jsSptwT/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1KWhpihHz9x5MIwg0OtwkN2AilY4O2QxA/view?usp=sharing">
                 <a>Machine Learning Specialization</a>
               </Link>
             </h5>
