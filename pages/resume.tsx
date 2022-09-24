@@ -59,7 +59,7 @@ const Resume = () => {
           <div className="">
             <h5 className="my-2 text-xl font-bold">
               <Link href="https://drive.google.com/file/d/1KWhpihHz9x5MIwg0OtwkN2AilY4O2QxA/view?usp=sharing">
-                <a>Machine Learning Specialization</a>
+                <a>MACHINE LEARNING SPECIALIZATION</a>
               </Link>
             </h5>
             <p className="font-semibold">DeepLearning.AI and Stanford (2022)</p>
