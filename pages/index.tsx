@@ -15,15 +15,14 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1">
-        Hello, I am Okasime, a Data Analyst and Developer. My
-        education/training is in Data Science/ Analytics, Web Development and
-        Agile Management. I am open-minded and I learn new things quickly. I am
-        fueled by my passion for understanding the nuance of tech development
-        and its benefits to society which has informed my collaborative approach
-        to dealing with challenges faced daily in tech and getting
-        projects/tasks done. I learned how to solve these challenges by using
-        Agile management principles with emphasis on Scrum and Kanban
-        frameworks. Hence, getting things done is second nature to me.
+        Hello, I am Okasime, a Data Analysis/Science and Web Developer
+        Enthusiast. I analyze and tell stories with Data using Excel, DAX, Power
+        Query, SQL, R, Python, and JavaScript. I build dynamic and responsive
+        dashboards using Tableau and Power BI, Google Data Studio, Locker,
+        Plotly, Chart.js, and NivoChart.js. I understand how to get tasks done
+        by using Agile management principles with an emphasis on Scrum and
+        Kanban frameworks. I have a collaborative mindset in getting tasks done,
+        I am open-minded and I learn new things quickly.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
