@@ -62,7 +62,9 @@ const Resume = () => {
                 <a>MACHINE LEARNING SPECIALIZATION</a>
               </Link>
             </h5>
-            <p className="font-semibold">DeepLearning.AI and Stanford (2022)</p>
+            <p className="font-semibold">
+              Stanford University and DeepLearning.AI (2022)
+            </p>
             <p className="my-3">
               I advanced my skills in ML models such as Linear & Logistics
               Regression, Artificial Neural Network, Decision Trees, Recommender
