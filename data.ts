@@ -82,6 +82,16 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "SQL & NoSQL",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Chart js, NivoChart.js",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Javascript/Typescript",
     level: "60",
   },
@@ -100,19 +110,10 @@ export const languages: Skill[] = [
     name: "React & Next Js",
     level: "60",
   },
-  {
-    Icon: BsCircleFill,
-    name: "SQL & NoSQL",
-    level: "60",
-  },
+
   {
     Icon: BsCircleFill,
     name: "Node and Express js",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Chart js, NivoChart.js",
     level: "60",
   },
 ];
