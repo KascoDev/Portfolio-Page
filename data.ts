@@ -19,7 +19,13 @@ export const services: Service[] = [
     Icon: SiPython,
     title: "Data Analytics Using python and R",
     about:
-      "Preparing, processing, analyzing, and sharing data for thoughtful action using <b>Python (Pandas, Numpy, Matplotlib & Seaborn, Scikit-learn, TensorFlow/Keras & Streamlit)</b> and <b>R/RStudio</b> <b>(Tidyverse, ggplot2 & R-Markdown)</b> libraries",
+      "Preparing, processing, analyzing, and sharing data for thoughtful action using <b>Python (Pandas, Numpy, Matplotlib & Seaborn, Scikit-learn, TensorFlow/Keras & Streamlit)</b> and <b>R/RStudio</b> <b>(Tidyverse, ggplot2 & R-Markdown)</b> libraries ",
+  },
+  {
+    Icon: FaChartBar,
+    title: "Data Science and Machine Learning",
+    about:
+      "ML models such as <b>Linear & Logistics Regression, Artificial Neural Network, Decision Trees, Recommender system, Anomaly Detection</b> using <b>Numpy, Scikit-Learn, TensorFlow & Keras</b> ",
   },
   {
     Icon: FaChartBar,
@@ -50,11 +56,6 @@ export const services: Service[] = [
     title: "Content Management System (CMS)",
     about:
       "Managing CMS's such as <b>Contentful</b>, <b>Strapi</b> and <b>Sanity</b>",
-  },
-  {
-    Icon: AiOutlineApi,
-    title: "API Development",
-    about: "Developing robust  REST API using <b>Node & Express</b> ",
   },
   {
     Icon: AiOutlineApi,

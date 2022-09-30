@@ -16,13 +16,15 @@ const About: NextPage = () => {
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1">
         Hello, I am Okasime, a Data Analysis/Science and Web Developer
-        Enthusiast. I analyze and tell stories with Data using Excel, DAX, Power
-        Query, SQL, R, Python, and JavaScript. I build dynamic and responsive
-        dashboards using Tableau and Power BI, Google Data Studio, Locker,
-        Plotly, Chart.js, and NivoChart.js. I understand how to get tasks done
-        by using Agile management principles with an emphasis on Scrum and
-        Kanban frameworks. I have a collaborative mindset in getting tasks done,
-        I am open-minded and I learn new things quickly.
+        Enthusiast. I analyze Data using Excel, DAX, Power Query, SQL, R,
+        Python, and JavaScript. I tell stories with Data by building dynamic and
+        responsive dashboards using Tableau, Microsoft Power BI, Google Data
+        Studio, Locker, Plotly, Chart.js, and NivoChart.js. I apply and deploy
+        Machine Learning (Supervised and Unsupervised) models to solve
+        real-world problems. I understand how to get tasks done using Agile
+        management principles with an emphasis on Scrum and Kanban frameworks. I
+        have a collaborative mindset in getting tasks done, I am open-minded and
+        I learn new things quickly.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
