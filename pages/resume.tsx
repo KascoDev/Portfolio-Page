@@ -58,7 +58,7 @@ const Resume = () => {
           {/* <h5 className="my-3 text-2xl font-bold">Education</h5> */}
           <div className="">
             <h5 className="my-2 text-xl font-bold">
-              <Link href="https://drive.google.com/file/d/1KWhpihHz9x5MIwg0OtwkN2AilY4O2QxA/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1KWhpihHz9x5MIwg0OtwkN2AilY4O2QxA/view?usp=share_link">
                 <a>MACHINE LEARNING SPECIALIZATION</a>
               </Link>
             </h5>
@@ -79,15 +79,16 @@ const Resume = () => {
           <div className="">
             <h5 className="my-2 text-xl font-bold">
               {" "}
-              <Link href="https://www.credly.com/badges/63335423-00d7-468a-bf25-c6c5971a047a/public_url">
-                <a>GOOGLE PROJECT MANAGEMENT (WATERFALL AND AGILE) (2021)</a>
+              <Link href="https://drive.google.com/file/d/14GE5skVWVLGKq6OY6MCoMK3_6QzbB8wM/view?usp=share_link">
+                <a>GOOGLE IT SUPPORT CERTIFICATE (2022)</a>
               </Link>
             </h5>
             <p className="font-semibold">GROW WITH GOOGLE</p>
             <p className="my-3">
-              Effective project documentation & artifacts, Planning & Executing,
-              Principles of Agile project management, with a focus on Scrum and
-              Kanban methodology
+              Technical Support Fundamentals, The Bits and Bytes of Computer
+              Networking, Operating Systems and You: Becoming a Power User,
+              System Administration and IT Infrastructure Services, IT Security:
+              Defense against the digital dark arts
             </p>
           </div>
         </div>
