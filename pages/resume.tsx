@@ -12,7 +12,7 @@ const Resume = () => {
           {/* <h5 className="my-3 text-2xl font-bold">Education</h5> */}
           <div className="">
             <h5 className="my-2 text-xl font-bold">
-              <Link href="https://www.credly.com/badges/0bee1ed5-4211-4500-8525-b360376f8a40/public_url">
+              <Link href="https://drive.google.com/file/d/1QCN54w4TaPwN9iWo7tAKPQiWf1UT1s5i/view?usp=share_link">
                 <a>
                   RELATIONAL DATABASE DESIGN & STRUCTURED QUERY LANGUAGE(SQL)
                 </a>
