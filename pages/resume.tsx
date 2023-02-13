@@ -11,11 +11,19 @@ const Resume = () => {
         <div className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1">
           {/* <h5 className="my-3 text-2xl font-bold">Education</h5> */}
           <div className="">
-            <h5 className="my-2 text-xl font-bold">MASTER OF SCIENCE</h5>
-            <p className="font-semibold">UNIVERSITY OF GOETTINGEN (On-going)</p>
+            <h5 className="my-2 text-xl font-bold">
+              <Link href="https://www.credly.com/badges/0bee1ed5-4211-4500-8525-b360376f8a40/public_url">
+                <a>
+                  RELATIONAL DATABASE DESIGN & STRUCTURED QUERY LANGUAGE(SQL)
+                </a>
+              </Link>
+            </h5>
+            <p className="font-semibold">
+              UNIVERSITY OF COLORADO BOULDER (2023)
+            </p>
             <p className="my-3">
-              I am in the final stage of my Master degree program
-              (Agri-business)
+              I developed skills in Database design, Entity Relationship Models
+              and Entity Relationship Diagrams, Data Normalization Model to 3NF
             </p>
           </div>
         </div>
@@ -107,6 +115,18 @@ const Resume = () => {
             <p className="my-3">
               Front-end and Back-end frameworks: HTML, CSS, Javascript,
               Bootstrap 4, React js, MongoDB, Node and Express js
+            </p>
+          </div>
+        </div>
+
+        <div className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1">
+          {/* <h5 className="my-3 text-2xl font-bold">Education</h5> */}
+          <div className="">
+            <h5 className="my-2 text-xl font-bold">MASTER OF SCIENCE</h5>
+            <p className="font-semibold">UNIVERSITY OF GOETTINGEN (On-going)</p>
+            <p className="my-3">
+              I am in the final stage of my Master degree program
+              (Agri-business)
             </p>
           </div>
         </div>
