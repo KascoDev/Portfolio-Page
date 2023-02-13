@@ -104,24 +104,6 @@ const Resume = () => {
         <div className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1">
           {/* <h5 className="my-3 text-2xl font-bold">Education</h5> */}
           <div className="">
-            <h5 className="my-2 text-xl font-bold">
-              <Link href="https://drive.google.com/file/d/1Udy2tBDY8yWancPXrfY-oImXpNznGXYZ/view?usp=sharing">
-                <a>FULL-STACK WEB DEVELOPMENT WITH REACT</a>
-              </Link>
-            </h5>
-            <p className="font-semibold">
-              THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (2022)
-            </p>
-            <p className="my-3">
-              Front-end and Back-end frameworks: HTML, CSS, Javascript,
-              Bootstrap 4, React js, MongoDB, Node and Express js
-            </p>
-          </div>
-        </div>
-
-        <div className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1">
-          {/* <h5 className="my-3 text-2xl font-bold">Education</h5> */}
-          <div className="">
             <h5 className="my-2 text-xl font-bold">MASTER OF SCIENCE</h5>
             <p className="font-semibold">UNIVERSITY OF GOETTINGEN (On-going)</p>
             <p className="my-3">
